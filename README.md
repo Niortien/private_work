@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<Routes>
+      
+      <Route path='/' element={ <Home/>} />
+      <Route path='/services' element={ <Services/>} />
+      <Route path='/Contact' element={ <Contact/>} />
+      </Routes>
+        
+
+          <div className='Home'>
+        <div className="Text">
+          <div className='inscription-button'><Link className='button1'>Inscription</Link></div>
+          <div className='connexion-button'><Link className='button2'>Connexion</Link></div>
+        </div>
+    </div>

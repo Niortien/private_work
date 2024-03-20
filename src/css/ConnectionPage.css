@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ConnectionPage  h1{
+ 
+    color: #FF8800;
+}
+.ConnectionPage a{
+    color: red;
+    padding: 10px 10px ;
+    border: 2px solid blue;
+    text-decoration: underline;
+}
+.ConnectionPage{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+.PrestataireInscriptions{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Images/logo2.jpg');
+    
+    
+    height: 80vh;
+}
+.message {
+    border: 3px green solid;
+    width: 50%;
+}
+.InscriptionPage{
+    position: relative;
+    border: 7px solid blue;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    justify-content: center;
+   
+}
+form{
+    border: 4px solid black;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.messagePre{
+    font-size:50px;
+    color: orange;
+    
+}
+input{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    
+}
+button{
+    padding: 15px 15px  ;
+    border-radius: 15px ;
+    color: blue;
+    background-color: #ff8800;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ligne{
+    border: #ff8800 solid 4px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+

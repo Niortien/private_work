@@ -1,0 +1,70 @@
+.footer{
+  border: 3px solid red;
+ 
+  
+  display: flex;
+  flex-direction: column;
+ 
+ position: relative;
+   color: black;
+   background-color: #ff8800;
+  
+ 
+  
+}
+.left{
+  border: 3px red solid;
+  width: 30%;
+}
+.row{
+  display: flex;
+  border: blue solid 5px;
+  flex-direction: column;
+}
+.text-box{
+  display: flex;
+  ;
+  justify-content: space-between;
+
+}
+.social-box{
+  display: flex;
+  border: 3px blue solid;
+  width: 50%;
+  margin-left: 400px;
+  justify-content: space-between;
+}
+
+.box{
+  border:  orange solid 3px;
+  display: flex;
+  
+  width: 40%;
+}
+.call-center{
+  justify-content: space-between;
+  width: 40%;
+}
+.number{
+  justify-content: space-between;
+  width: 40%;
+}
+.email {
+width: 30%;
+justify-content: space-between;
+
+}
+.faq{
+  width: 30%;
+justify-content: space-between;
+}
+
+.image{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.image img{
+  width: 100%;
+  
+}
